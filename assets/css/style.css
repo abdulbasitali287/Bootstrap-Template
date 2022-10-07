@@ -15,7 +15,7 @@ body{
 section{
     padding-block: 62px 0px;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 a{
     text-decoration: none;
@@ -260,4 +260,162 @@ h2{
     background-position: center;
 }
   /* about us sectoin 2 close */
+
+  /* about us section 3 start */
+#about-section-3{
+    padding-block: 150px;   
+}
+#about-section-3 #about-section-3-content h2{
+    color: #37517E;
+    font-weight: bold;
+    font-size: 37px;
+}
+#about-section-3 #about-section-3-content p{
+    font-style: italic;
+}
+#progress-bars .progress-div{
+    margin-block: 20px;
+}
+#progress-bars .progress-div div span{
+    color: #37517E;
+    font-weight: bold;
+}
+  /* about us section 3 close */
   /* about-us section close */
+
+/* service section start */
+#services-section{
+    background: #F3F5FA;
+    padding-block: 100px;
+}
+#services-section .section-title p{
+    font-style: italic;
+    font-weight: 400;
+}
+#services-section .card{
+    width: 302px;
+    background-color: #FFFFFF;
+    padding-inline: 30px;
+    padding-block: 40px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    transition: 0.5s;
+}
+#services-section .card:hover{
+    transform: translateY(-10px);
+}
+#services-section .card i{
+    color: #00B4FF;
+    font-size: 35px;
+    padding-block: 18px;
+}
+#services-section .card .card-body{
+    padding: 0;
+}
+#services-section .card .card-body .card-title{
+    color: #37517E;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+#services-section .card .card-body .card-title:hover{
+    color: #00B4FF;
+}
+#services-section .card .card-body .card-text{
+    font-weight: 500;   
+}
+/* servic section 2 start */
+#service-section-2{
+    padding-block: 100px;
+    /* background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)); */
+    background-image: url(/assets/img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service-section-2 .content{
+    padding-right: 100px;
+}
+#service-section-2 .content h2{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#service-section-2 .content p{
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+#service-section-2 .container #cta-btn a{
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#service-section-2 .container #cta-btn a:hover{
+    background: #00B4FF;
+    border: 1px solid #00B4FF;
+}
+/* servic section 2 close */
+
+/* service section close */
+
+/* portfolio section start */
+#portfolio-section{
+    
+}
+#portfolio-section #portfolio-nav{
+    margin-top: 20px;
+}
+#portfolio-section #portfolio-nav ul{
+    margin: 0;
+    padding: 0;
+}
+#portfolio-section #portfolio-nav ul li{
+    display: inline-block;
+    margin-inline: 30px;
+    /* border: 1px solid red; */
+}
+#portfolio-section #portfolio-nav ul li a{
+    display: inline-block;
+    color: #444444;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+#portfolio-section #portfolio-nav ul li a:active{
+    background: #00B4FF;
+    color: #FFFFFF;
+}
+#portfolio-section .container .row .col .portfolio-img{
+    overflow: hidden;
+    /* zoom: 20px; */
+}
+/* #portfolio-section .container .row .col .portfolio-info{
+    background: rgba(55, 81, 126, 0.8);
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+} */
+#portfolio-section .container .row .col .portfolio-info h4{
+    
+}
+#portfolio-section .container .row .col .portfolio-info p{
+    
+}
+#portfolio-section .container .row .col .portfolio-info a{
+    
+}
+#portfolio-section .container .row .col .portfolio-info a i{
+    
+}
+/* portfolio section close */
