@@ -18,25 +18,35 @@
                     <h4 id="logo">ARSHA</h4>
                 </div>
                 <div class="col-md-8">
-                    <i class="d-md-none d-flex justify-content-end fa-solid fa-bars fs-4 text-white" id="menu-bars"></i>
-                    <ul class="d-md-flex justify-content-end flex-wrap flex-shrink-1" id="navigation-menu">
+                    <i class="d-md-none d-flex justify-content-end fa-solid fa-bars fs-4 text-white" style="position: absolute;top: 30px; right: 20px;" id="menu-bars"></i>
+                    <ul class="d-md-flex d-none justify-content-end flex-wrap flex-shrink-1" id="navigation-menu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Team</a></li>
-                        <li><a href="#">Drop Down</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#" id="navbar-btn">Get Started</a></li>
+                        <li><a href="#" class="navbar-btn">Get Started</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
+    <div class="rounded justify-content-center d-none" style="background: #FFFFFF;position: absolute;top: 20;left: 0px;padding-bottom: 15rem;" id="toggleNavbar">
+        <ul>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#">Home</a></li>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#">About</a></li>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#">Services</a></li>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#">Portfolio</a></li>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#">Team</a></li>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#">Contact</a></li>
+            <li class="py-2 px-4"><a style="text-decoration: none;color: #37517E;" href="#" class="navbar-btn d-block">Get Started</a></li>
+        </ul>
+    </div>
     <section id="banner-section" class="d-flex align-items-center flex-shrink-1">
         <div class="container">
             <div class="row">
-                <div class="col col-md-6">
+                <div class="col-md-6">
                     <div id="banner-text">
                         <h6>Better Solutions For Your Business</h4>
                         <p>We are team of talented designers making websites with Bootstrap</p>
@@ -46,7 +56,7 @@
                         <a href="#" id="btn-2"><i class="fa-solid fa-play"></i>Watch Video</a>
                     </div>
                 </div>
-                <div class="col col-md-6">
+                <div class="col-md-6">
                     <img id="banner-img" class="img-fluid" src="assets/img/hero-img.png" alt="">
                 </div>
             </div>
@@ -59,7 +69,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col col-md-6" id="about-section-left-side">
+                <div class="col-md-6 pb-5" id="about-section-left-side">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <ul>
                         <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
@@ -67,7 +77,7 @@
                         <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
                     </ul>
                 </div>
-                <div class="col col-md-6" id="about-section-right-side">
+                <div class="col-md-6" id="about-section-right-side">
                     <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <a href="#">Learn More</a>
@@ -80,7 +90,7 @@
     <section id="about-section-2">
         <div class="container">
             <div class="row">
-                <div class="col col-lg-7">
+                <div class="col-lg-7">
                     <div id="content">
                         <h2>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil </span></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
@@ -101,7 +111,7 @@
                         </button>
                         <p class="d-none">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                     </div>
-                    <div class="accordion-section">
+                    <div class="accordion-section pb-2">
                         <button class="accordion-btn d-flex justify-content-between">
                             <span id="first">03</span>
                             <span id="second">Non consectetur a erat nam at lectus urna duis?</span>
@@ -110,7 +120,9 @@
                         <p class="d-none" id="accordion-para">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                     </div>
                 </div>
-                <div class="col col-lg-5" id="about-section-2-right-side"></div>
+                <div class="col-lg-5" id="about-section-2-right-side">
+                    <img src="assets/img/why-us.png" class="img-fluid" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -118,10 +130,10 @@
     <section id="about-section-3">
         <div class="container">
             <div class="row">
-                <div class="col col-lg-6">
+                <div class="col-lg-6 pb-5">
                     <img src="assets/img/skills.png" class="img-fluid" alt="">
                 </div>
-                <div class="col col-lg-6 ps-5">
+                <div class="col-lg-6 ps-5">
                     <div id="about-section-3-content">
                         <h2>Voluptatem dignissimos provident quasi corporis voluptates</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
@@ -165,7 +177,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card">
                         <i class="fa-solid fa-basketball"></i>
                         <div class="card-body">
@@ -174,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card">
                         <i class="fa-solid fa-basketball"></i>
                         <div class="card-body">
@@ -183,7 +195,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card">
                         <i class="fa-solid fa-basketball"></i>
                         <div class="card-body">
@@ -192,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card">
                         <i class="fa-solid fa-basketball"></i>
                         <div class="card-body">
@@ -483,37 +495,41 @@
     <div class="container">
         <div class="row">
             <div class="col d-flex flex-column justify-content-center">
-                <button class="btn content-box d-flex justify-content-between mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
-                    <div class="left-side" style="color: #47b2e4;">
+                <button class="btn content-box mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
+                    <div class="left-side  d-flex justify-content-between" style="color: #47b2e4;">
                         <p style="letter-spacing: 1px;"><i class="fa-solid fa-question me-3"></i>Non consectetur a erat nam at lectus urna duis?</p>
+                        <span class="right-side">
+                            <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
+                        </span>
                     </div>
-                    <span class="right-side">
-                        <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
-                    </span>
+                    <p class="d-none">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </button>
-                <button class="btn content-box d-flex justify-content-between mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
-                    <div class="left-side" style="color: #47b2e4;">
+                <button class="btn content-box mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
+                    <div class="left-side d-flex justify-content-between" style="color: #47b2e4;">
                         <p style="letter-spacing: 1px;"><i class="fa-solid fa-question me-3"></i>Non consectetur a erat nam at lectus urna duis?</p>
+                        <span class="right-side">
+                            <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
+                        </span>
                     </div>
-                    <span class="right-side">
-                        <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
-                    </span>
+                    <p class="d-none">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </button>
-                <button class="btn content-box d-flex justify-content-between mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
-                    <div class="left-side" style="color: #47b2e4;">
+                <button class="btn content-box mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
+                    <div class="left-side  d-flex justify-content-between" style="color: #47b2e4;">
                         <p style="letter-spacing: 1px;"><i class="fa-solid fa-question me-3"></i>Non consectetur a erat nam at lectus urna duis?</p>
+                        <span class="right-side">
+                            <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
+                        </span>
                     </div>
-                    <span class="right-side">
-                        <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
-                    </span>
+                    <p class="d-none">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </button>
-                <button class="btn content-box d-flex justify-content-between mb-3 mx-auto frequently-button" style="background-color: #FFFFFF;width: 80%;padding: 20px 15px;">
-                    <div class="left-side" style="color: #47b2e4;">
+                <button class="btn content-box mb-3 mx-auto frequently-button">
+                    <div class="left-side  d-flex justify-content-between" style="color: #47b2e4;">
                         <p style="letter-spacing: 1px;"><i class="fa-solid fa-question me-3"></i>Non consectetur a erat nam at lectus urna duis?</p>
+                        <span class="right-side">
+                            <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
+                        </span>
                     </div>
-                    <span class="right-side">
-                        <i class="fa-sharp fa-solid fa-angle-down show-para"></i>
-                    </span>
+                    <p class="d-none">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </button>
             </div>
         </div>

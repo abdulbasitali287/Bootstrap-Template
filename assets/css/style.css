@@ -83,7 +83,7 @@ h2{
     color: #00B4FF;
     transition: 1s;
 }
-#navbar ul li #navbar-btn{
+.navbar-btn{
     display: inline-block;
     color: #FFFFFF;
     background: none;
@@ -93,17 +93,18 @@ h2{
     border: 2px solid #00B4FF;
     font-weight: bold;
 }
-#navbar ul li #navbar-btn:hover{
+.navbar-btn:hover{
     background: #00B4FF;
 }
 #banner-section{
     background: #37517E;
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     overflow: hidden;
+    padding-bottom: 20px;
 }
 #banner-section #banner-text{
-    padding-top: 50px;
+    padding-top: 10px;
 }
 #banner-section #banner-text h6{
     font-weight: bold;
@@ -205,60 +206,60 @@ h2{
     padding-bottom: 150px;
     padding-top: 150px;
 }
-#about-section-2 .col #content{
+#about-section-2 #content{
     margin-bottom: 25px;
 }
-#about-section-2 .col #content h2{
+#about-section-2 #content h2{
     color: #37517E;
     font-weight: bold;
 }
-#about-section-2 .col #content h2 span{
+#about-section-2 #content h2 span{
     color: #37517E;
     font-weight: 600;
 }
-#about-section-2 .col #content p{
+#about-section-2 #content p{
     color: #848484;
     letter-spacing: 1px;
     font-weight: 300;
 }
-#about-section-2 .col .accordion-section{
+#about-section-2 .accordion-section{
     background: #FFFFFF;
     margin-block: 10px;
 }
-#about-section-2 .col .accordion-section .accordion-btn{
+#about-section-2 .accordion-section .accordion-btn{
     width: 100%;
     padding: 25px;
     background: #FFFFFF;
     letter-spacing: 1px;
     border: none;
 }
-#about-section-2 .col .accordion-section .accordion-btn #first{
+#about-section-2 .accordion-section .accordion-btn #first{
     color: #47B2E4;
     font-weight: bold;
     font-size: 18px;
 }
-#about-section-2 .col .accordion-section .accordion-btn #second{
+#about-section-2 .accordion-section .accordion-btn #second{
     color: #343A40;
     font-weight: bold;
 }
-#about-section-2 .col .accordion-section .accordion-btn #third{
+#about-section-2 .accordion-section .accordion-btn #third{
     
 }
-#about-section-2 .col .accordion-section .accordion-btn #third i{
+#about-section-2 .accordion-section .accordion-btn #third i{
     color: #343A40;
     font-weight: bold;
 }
-#about-section-2 .col .accordion-section p{
+#about-section-2 .accordion-section p{
     color: #444444;
     letter-spacing: 1px;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
     line-height: 25px;
 }
 #about-section-2 #about-section-2-right-side{
-    background-image: url('/assets/img/why-us.png');
-    background-repeat: no-repeat;
+    /* background-image: url('/assets/img/why-us.png'); */
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
   /* about us sectoin 2 close */
 
